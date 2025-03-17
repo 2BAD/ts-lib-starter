@@ -53,7 +53,7 @@
   "devDependencies": {
     "@2bad/axiom": "1.0.0-beta.14",
     "@2bad/tsconfig": "3.0.1",
-    "@2bad/tsfix": "0.1.0",
+    "@2bad/tsfix": "1.0.0",
     "@biomejs/biome": "1.9.4",
     "@swc/cli": "0.6.0",
     "@swc/core": "1.11.9",
