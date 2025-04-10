@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { quote } from './index.ts'
+import { quote } from '~/index.ts'
 
 describe('index', () => {
   it('phrase', () => {
