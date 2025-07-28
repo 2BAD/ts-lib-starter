@@ -54,8 +54,8 @@
     "@2bad/tsfix": "1.1.1",
     "@biomejs/biome": "2.1.2",
     "@swc/cli": "0.7.8",
-    "@swc/core": "1.13.1",
-    "@types/node": "24.0.15",
+    "@swc/core": "1.13.2",
+    "@types/node": "24.1.0",
     "@vitest/coverage-v8": "3.2.4",
     "npm-run-all2": "8.0.4",
     "rimraf": "6.0.1",
@@ -63,12 +63,12 @@
     "vite-tsconfig-paths": "5.1.4",
     "vitest": "3.2.4"
   },
-  "packageManager": "npm@11.4.2",
+  "packageManager": "npm@11.5.1",
   "engines": {
     "node": ">=24"
   },
   "volta": {
     "node": "24.4.1",
-    "npm": "11.4.2"
+    "npm": "11.5.1"
   }
 }
