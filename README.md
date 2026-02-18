@@ -10,7 +10,7 @@ A modern, zero-config template for building high-quality TypeScript libraries. B
   - Streamlined build process with parallel execution
 
 - **🔍 Comprehensive Quality Tools**
-  - Biome for fast, consistent code formatting and linting
+  - [oxlint](https://oxc.rs/docs/guide/usage/linter) + [oxfmt](https://oxc.rs/docs/guide/usage/formatter) for fast linting and formatting
   - Extensive ESLint configuration for code quality (powered by [axiom](https://github.com/2BAD/axiom))
   - Integrated test runner with coverage reporting
 
@@ -47,7 +47,7 @@ npm run check       # Run all code quality checks
 
 # Maintenance
 npm run fix         # Auto-fix all code style issues
-npm run fix:format  # or just the format code with Biome
+npm run fix:format  # Format code with oxfmt
 ```
 
 ## Package Structure
