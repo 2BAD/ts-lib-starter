@@ -33,21 +33,21 @@ A modern, zero-config template for building high-quality TypeScript libraries. B
 3. Search and replace the following:
    - `ts-lib-starter` → your package name
    - `2BAD` → your name/organization (except `@2bad/tsconfig` references)
-4. Run `npm install`
+4. Run `pnpm install`
 5. Start developing!
 
 ## Available Scripts
 
 ```bash
 # Development
-npm run test        # Run all tests
-npm run test:unit   # Run unit tests with coverage
-npm run build       # Build the library
-npm run check       # Run all code quality checks
+pnpm test        # Run all tests
+pnpm test:unit   # Run unit tests with coverage
+pnpm build       # Build the library
+pnpm check       # Run all code quality checks
 
 # Maintenance
-npm run fix         # Auto-fix all code style issues
-npm run fix:format  # Format code with oxfmt
+pnpm fix         # Auto-fix all code style issues
+pnpm fix:format  # Format code with oxfmt
 ```
 
 ## Package Structure
@@ -70,7 +70,7 @@ npm run fix:format  # Format code with oxfmt
 ## Requirements
 
 - Node.js >= 20
-- npm >= 10.8.3
+- pnpm >= 10
 
 ## License
 
