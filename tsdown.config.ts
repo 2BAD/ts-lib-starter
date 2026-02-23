@@ -8,5 +8,5 @@ export default defineConfig({
   unbundle: true,
   dts: true,
   publint: true,
-  attw: true
+  attw: { profile: 'esm-only' }
 })
