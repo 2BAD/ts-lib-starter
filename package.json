@@ -46,11 +46,13 @@
   },
   "devDependencies": {
     "@2bad/tsconfig": "3.0.2",
+    "@arethetypeswrong/cli": "0.18.2",
     "@types/node": "25.3.0",
     "@vitest/coverage-v8": "4.0.18",
     "npm-run-all2": "8.0.4",
     "oxfmt": "0.35.0",
     "oxlint": "1.50.0",
+    "publint": "0.3.17",
     "tsdown": "0.20.3",
     "typescript": "5.9.3",
     "vite-tsconfig-paths": "6.1.1",

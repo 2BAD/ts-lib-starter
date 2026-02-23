@@ -6,5 +6,7 @@ export default defineConfig({
   format: 'es',
   fixedExtension: false,
   unbundle: true,
-  dts: true
+  dts: true,
+  publint: true,
+  attw: true
 })
