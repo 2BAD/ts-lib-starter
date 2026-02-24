@@ -1,7 +1,7 @@
 {
   "name": "@2bad/ts-lib-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "A modern TypeScript library starter with ESM-first architecture, tsdown-powered builds, and comprehensive quality tooling",
   "keywords": [
     "template",
     "typescript",
