@@ -1,7 +1,7 @@
 import { defineConfig } from 'oxlint'
 
 export default defineConfig({
-  plugins: ['eslint', 'import', 'jsdoc', 'node', 'promise', 'typescript', 'unicorn', 'vitest'],
+  plugins: ['eslint', 'import', 'promise', 'typescript', 'unicorn', 'vitest'],
   rules: {
     'no-unused-vars': 'error',
     'no-undef': 'error',
