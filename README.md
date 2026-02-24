@@ -4,14 +4,12 @@ Opinionated template for TypeScript libraries. ESM-only, strict types, fast tool
 
 ## Stack
 
-| | |
-|---|---|
-| Build | [tsdown](https://tsdown.dev/) (Rolldown + oxc) |
-| Test | [Vitest](https://vitest.dev/) with v8 coverage |
-| Lint | [oxlint](https://oxc.rs/docs/guide/usage/linter) |
-| Format | [oxfmt](https://oxc.rs/docs/guide/usage/formatter) |
-| Post-build | [publint](https://publint.dev/) + [arethetypeswrong](https://arethetypeswrong.github.io/) |
-| CI | GitHub Actions (Linux + Windows, Node 22 + 24) |
+- **Build:** [tsdown](https://tsdown.dev/) (Rolldown + oxc)
+- **Test:** [Vitest](https://vitest.dev/) with v8 coverage
+- **Lint:** [oxlint](https://oxc.rs/docs/guide/usage/linter)
+- **Format:** [oxfmt](https://oxc.rs/docs/guide/usage/formatter)
+- **Post-build:** [publint](https://publint.dev/) + [arethetypeswrong](https://arethetypeswrong.github.io/)
+- **CI:** GitHub Actions (Linux + Windows, Node 22 + 24)
 
 ## Getting Started
 
