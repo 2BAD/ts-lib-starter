@@ -1,17 +1,16 @@
 # TypeScript Library Starter
 
-A modern, zero-config template for building high-quality TypeScript libraries. Built with ESM-first architecture and powered by SWC for blazing-fast compilation, this starter kit provides everything you need to create, test, and publish professional TypeScript packages.
+A modern, zero-config template for building high-quality TypeScript libraries. Built with ESM-first architecture and powered by [tsdown](https://tsdown.dev/) for blazing-fast compilation, this starter kit provides everything you need to create, test, and publish professional TypeScript packages.
 
 ## ✨ Key Features
 
 - **⚡️ Lightning-Fast Build Pipeline**
-  - SWC-powered compilation for rapid development cycles
+  - [tsdown](https://tsdown.dev/)-powered compilation for rapid development cycles
   - Optimized TypeScript configuration with path aliases
   - Streamlined build process with parallel execution
 
 - **🔍 Comprehensive Quality Tools**
   - [oxlint](https://oxc.rs/docs/guide/usage/linter) + [oxfmt](https://oxc.rs/docs/guide/usage/formatter) for fast linting and formatting
-  - Extensive ESLint configuration for code quality (powered by [axiom](https://github.com/2BAD/axiom))
   - Integrated test runner with coverage reporting
 
 - **📦 Modern Package Development**
@@ -53,15 +52,14 @@ pnpm fix:format  # Format code with oxfmt
 ## Package Structure
 
 ```
-├── source/         # Source code
-├── tests/          # Test files
+├── source/         # Source code (tests co-located)
 ├── build/          # Compiled output (generated)
 └── package.json    # Package configuration
 ```
 
 ## Why Use This Template?
 
-- **Performance First**: SWC compilation is significantly faster than traditional TypeScript compilation
+- **Performance First**: tsdown compilation is significantly faster than traditional TypeScript compilation
 - **Modern Standards**: Built with current best practices and modern JavaScript features
 - **Quality Focused**: Comprehensive testing and linting setup ensures high-quality code
 - **Production Ready**: Includes all necessary configurations for building and publishing packages
@@ -69,7 +67,7 @@ pnpm fix:format  # Format code with oxfmt
 
 ## Requirements
 
-- Node.js >= 20
+- Node.js >= 24
 - pnpm >= 10
 
 ## License
