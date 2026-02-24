@@ -1,69 +1,42 @@
 # TypeScript Library Starter
 
-A modern, zero-config template for building high-quality TypeScript libraries. Built with ESM-first architecture and powered by [tsdown](https://tsdown.dev/) for blazing-fast compilation, this starter kit provides everything you need to create, test, and publish professional TypeScript packages.
+Opinionated template for TypeScript libraries. ESM-only, strict types, fast tooling.
 
-## ✨ Key Features
+## Stack
 
-- **⚡️ Lightning-Fast Build Pipeline**
-  - [tsdown](https://tsdown.dev/)-powered compilation for rapid development cycles
-  - Optimized TypeScript configuration with path aliases
-  - Streamlined build process with parallel execution
-
-- **🔍 Comprehensive Quality Tools**
-  - [oxlint](https://oxc.rs/docs/guide/usage/linter) + [oxfmt](https://oxc.rs/docs/guide/usage/formatter) for fast linting and formatting
-  - Integrated test runner with coverage reporting
-
-- **📦 Modern Package Development**
-  - ESM-first architecture
-  - Automatic type declaration generation
-  - Properly configured package exports
-  - GitHub Actions workflow ready
-
-- **🛠 Developer Experience**
-  - Zero configuration needed to get started
-  - Type-safe development with strict TypeScript settings
-  - Hot-reloading test environment with Vitest
-  - Automated version management and publishing
+- **Build** — [tsdown](https://tsdown.dev/) (Rolldown + oxc)
+- **Test** — [Vitest](https://vitest.dev/) with v8 coverage
+- **Lint** — [oxlint](https://oxc.rs/docs/guide/usage/linter)
+- **Format** — [oxfmt](https://oxc.rs/docs/guide/usage/formatter)
+- **Post-build checks** — [publint](https://publint.dev/) + [arethetypeswrong](https://arethetypeswrong.github.io/)
+- **CI** — GitHub Actions (test matrix on Linux & Windows, Node 22 & 24)
 
 ## Getting Started
 
-1. Click "Use this template" on GitHub
+1. Click **Use this template** on GitHub
 2. Clone your new repository
-3. Search and replace the following:
-   - `ts-lib-starter` → your package name
-   - `2BAD` → your name/organization (except `@2bad/tsconfig` references)
-4. Run `pnpm install`
-5. Start developing!
+3. Search and replace:
+   - `ts-lib-starter` with your package name
+   - `2BAD` with your name/organization (keep `@2bad/tsconfig` as-is)
+4. `pnpm install`
 
-## Available Scripts
+## Scripts
 
 ```bash
-# Development
-pnpm test        # Run all tests
-pnpm test:unit   # Run unit tests with coverage
-pnpm build       # Build the library
-pnpm check       # Run all code quality checks
-
-# Maintenance
-pnpm fix         # Auto-fix all code style issues
-pnpm fix:format  # Format code with oxfmt
+pnpm build           # compile to ESM + generate .d.ts
+pnpm test            # run all tests
+pnpm test:unit       # unit tests with coverage
+pnpm test:integration # integration tests with coverage
+pnpm check           # lint + format check
+pnpm fix             # auto-fix lint + formatting
 ```
 
-## Package Structure
+## Project Structure
 
 ```
-├── source/         # Source code (tests co-located)
-├── build/          # Compiled output (generated)
-└── package.json    # Package configuration
+source/              # source code, tests co-located
+build/               # compiled output (generated)
 ```
-
-## Why Use This Template?
-
-- **Performance First**: tsdown compilation is significantly faster than traditional TypeScript compilation
-- **Modern Standards**: Built with current best practices and modern JavaScript features
-- **Quality Focused**: Comprehensive testing and linting setup ensures high-quality code
-- **Production Ready**: Includes all necessary configurations for building and publishing packages
-- **Actively Maintained**: Regular updates to dependencies and features
 
 ## Requirements
 
@@ -72,8 +45,4 @@ pnpm fix:format  # Format code with oxfmt
 
 ## License
 
-MIT © 2BAD
-
----
-
-This template is part of the [@2bad](https://github.com/2BAD) ecosystem of development tools.
+MIT
