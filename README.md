@@ -4,12 +4,14 @@ Opinionated template for TypeScript libraries. ESM-only, strict types, fast tool
 
 ## Stack
 
-- **Build** — [tsdown](https://tsdown.dev/) (Rolldown + oxc)
-- **Test** — [Vitest](https://vitest.dev/) with v8 coverage
-- **Lint** — [oxlint](https://oxc.rs/docs/guide/usage/linter)
-- **Format** — [oxfmt](https://oxc.rs/docs/guide/usage/formatter)
-- **Post-build checks** — [publint](https://publint.dev/) + [arethetypeswrong](https://arethetypeswrong.github.io/)
-- **CI** — GitHub Actions (test matrix on Linux & Windows, Node 22 & 24)
+| | |
+|---|---|
+| Build | [tsdown](https://tsdown.dev/) (Rolldown + oxc) |
+| Test | [Vitest](https://vitest.dev/) with v8 coverage |
+| Lint | [oxlint](https://oxc.rs/docs/guide/usage/linter) |
+| Format | [oxfmt](https://oxc.rs/docs/guide/usage/formatter) |
+| Post-build | [publint](https://publint.dev/) + [arethetypeswrong](https://arethetypeswrong.github.io/) |
+| CI | GitHub Actions (Linux + Windows, Node 22 + 24) |
 
 ## Getting Started
 
@@ -23,19 +25,19 @@ Opinionated template for TypeScript libraries. ESM-only, strict types, fast tool
 ## Scripts
 
 ```bash
-pnpm build           # compile to ESM + generate .d.ts
-pnpm test            # run all tests
-pnpm test:unit       # unit tests with coverage
+pnpm build            # compile to ESM + generate .d.ts
+pnpm test             # run all tests
+pnpm test:unit        # unit tests with coverage
 pnpm test:integration # integration tests with coverage
-pnpm check           # lint + format check
-pnpm fix             # auto-fix lint + formatting
+pnpm check            # lint + format check
+pnpm fix              # auto-fix lint + formatting
 ```
 
 ## Project Structure
 
 ```
-source/              # source code, tests co-located
-build/               # compiled output (generated)
+source/   # source code, tests co-located
+build/    # compiled output (generated)
 ```
 
 ## Requirements
