@@ -1,4 +1,3 @@
-/* eslint-disable import-x/no-default-export */
 import tsconfigPaths from 'vite-tsconfig-paths'
 import { coverageConfigDefaults, defineConfig } from 'vitest/config'
 
