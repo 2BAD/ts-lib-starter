@@ -57,6 +57,7 @@
     "test:unit": "vitest run unit --coverage"
   },
   "devDependencies": {
+    "@2bad/axiom": "2.0.0",
     "@2bad/tsconfig": "3.0.2",
     "@arethetypeswrong/cli": "0.18.2",
     "@types/node": "25.6.0",
