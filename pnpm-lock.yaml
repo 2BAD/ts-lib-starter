@@ -12,8 +12,8 @@ importers:
         specifier: 2.0.0
         version: 2.0.0(oxlint@1.70.0)
       '@2bad/tsconfig':
-        specifier: 3.0.2
-        version: 3.0.2
+        specifier: 4.0.0
+        version: 4.0.0(typescript@6.0.3)
       '@arethetypeswrong/cli':
         specifier: 0.18.3
         version: 0.18.3
@@ -53,9 +53,11 @@ packages:
     peerDependencies:
       oxlint: '>= 1.60'
 
-  '@2bad/tsconfig@3.0.2':
-    resolution: {integrity: sha512-2LbjaQa5ScynsY0CmGQMtk4420a+Pa7HbWXzk1DC8hrX0mYhl1jX2yVlXGRWkkCuaN5m6+TZ5nBmqlm717ByqA==}
+  '@2bad/tsconfig@4.0.0':
+    resolution: {integrity: sha512-b4AOQ+l2EbbXtYT1UTGhcoOxLsQh6/KheTKjOIMlS37te3AlslDqfGqBjCzxv4iRqTqiBwpbbfA8DOxC7w/ieA==}
     engines: {node: '>=24'}
+    peerDependencies:
+      typescript: '>=5.8'
 
   '@andrewbranch/untar.js@1.0.3':
     resolution: {integrity: sha512-Jh15/qVmrLGhkKJBdXlK1+9tY4lZruYjsgkDFj08ZmDiWVBLJcqkok7Z0/R0In+i1rScBpJlSvrTS2Lm41Pbnw==}
@@ -1397,7 +1399,9 @@ snapshots:
     dependencies:
       oxlint: 1.70.0
 
-  '@2bad/tsconfig@3.0.2': {}
+  '@2bad/tsconfig@4.0.0(typescript@6.0.3)':
+    dependencies:
+      typescript: 6.0.3
 
   '@andrewbranch/untar.js@1.0.3': {}
 
