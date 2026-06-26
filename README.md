@@ -9,7 +9,7 @@ Opinionated template for TypeScript libraries. ESM-only, strict types, fast tool
 - **Lint:** [oxlint](https://oxc.rs/docs/guide/usage/linter)
 - **Format:** [oxfmt](https://oxc.rs/docs/guide/usage/formatter)
 - **Post-build:** [publint](https://publint.dev/) + [arethetypeswrong](https://arethetypeswrong.github.io/)
-- **CI:** GitHub Actions (Linux + Windows, Node 22 + 24)
+- **CI:** GitHub Actions (Linux + Windows, Node 26)
 
 ## Getting Started
 
@@ -40,8 +40,8 @@ build/    # compiled output (generated)
 
 ## Requirements
 
-- Node.js >= 24
-- pnpm >= 10
+- Node.js >= 26
+- pnpm >= 11
 
 ## License
 
