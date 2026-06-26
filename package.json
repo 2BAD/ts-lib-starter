@@ -58,10 +58,10 @@
   },
   "devDependencies": {
     "@2bad/axiom": "2.0.0",
-    "@2bad/tsconfig": "3.0.2",
     "@arethetypeswrong/cli": "0.18.3",
     "@types/node": "25.9.3",
     "@vitest/coverage-v8": "4.1.9",
+    "@2bad/tsconfig": "4.0.0",
     "npm-run-all2": "8.0.4",
     "oxfmt": "0.55.0",
     "oxlint": "1.70.0",
