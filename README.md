@@ -41,8 +41,8 @@ source/   # source code, tests co-located
 build/    # compiled output (generated)
 ```
 
-- Tests live next to the code they cover. `test:unit` and `test:integration` filter by filename, so name files
-  `*.unit.test.ts` or `*.integration.test.ts`.
+- `test:unit` and `test:integration` filter by filename, so name test files `*.unit.test.ts` or
+  `*.integration.test.ts`.
 - `~/` is an alias for `source/`. Imports use `.ts` extensions.
 - The build keeps the source file tree, so every public entry point needs a matching block in `package.json` `exports`
   (see `./quotes/parts`).
